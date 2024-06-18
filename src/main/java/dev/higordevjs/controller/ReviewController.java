@@ -1,5 +1,7 @@
-package dev.higordevjs.movies;
+package dev.higordevjs.controller;
 
+import dev.higordevjs.movies.Review;
+import dev.higordevjs.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

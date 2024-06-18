@@ -1,5 +1,8 @@
-package dev.higordevjs.movies;
+package dev.higordevjs.service;
 
+import dev.higordevjs.movies.Movie;
+import dev.higordevjs.movies.Review;
+import dev.higordevjs.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

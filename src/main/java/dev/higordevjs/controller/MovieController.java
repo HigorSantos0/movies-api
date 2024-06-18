@@ -1,6 +1,7 @@
-package dev.higordevjs.movies;
+package dev.higordevjs.controller;
 
-import org.bson.types.ObjectId;
+import dev.higordevjs.movies.Movie;
+import dev.higordevjs.service.MovieService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,9 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.lang.annotation.Repeatable;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 
 @RestController

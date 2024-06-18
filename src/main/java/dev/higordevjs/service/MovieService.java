@@ -1,6 +1,7 @@
-package dev.higordevjs.movies;
+package dev.higordevjs.service;
 
-import org.bson.types.ObjectId;
+import dev.higordevjs.movies.Movie;
+import dev.higordevjs.repository.MovieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
